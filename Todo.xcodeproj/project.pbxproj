@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D11A19F2B6E28C700F1528F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11A19E2B6E28C700F1528F /* CheckBox.swift */; };
 		0D7C2B5B2AC26E92006417E4 /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B5A2AC26E92006417E4 /* TodoApp.swift */; };
 		0D7C2B5D2AC26E92006417E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B5C2AC26E92006417E4 /* ContentView.swift */; };
 		0D7C2B5F2AC26E94006417E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7C2B5E2AC26E94006417E4 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D11A19E2B6E28C700F1528F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		0D7C2B572AC26E92006417E4 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7C2B5A2AC26E92006417E4 /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
 		0D7C2B5C2AC26E92006417E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				0D7C2B5A2AC26E92006417E4 /* TodoApp.swift */,
 				0D7C2B5C2AC26E92006417E4 /* ContentView.swift */,
 				0D7C2B892AC401E1006417E4 /* CategoryImage.swift */,
+				0D11A19E2B6E28C700F1528F /* CheckBox.swift */,
 				0D7C2B5E2AC26E94006417E4 /* Assets.xcassets */,
 				0D7C2B632AC26E94006417E4 /* Persistence.swift */,
 				0D7C2B652AC26E94006417E4 /* Todo.xcdatamodeld */,
@@ -268,6 +271,7 @@
 			files = (
 				0D7C2B642AC26E94006417E4 /* Persistence.swift in Sources */,
 				0D7C2B5D2AC26E92006417E4 /* ContentView.swift in Sources */,
+				0D11A19F2B6E28C700F1528F /* CheckBox.swift in Sources */,
 				0D7C2B5B2AC26E92006417E4 /* TodoApp.swift in Sources */,
 				0D7C2B8A2AC401E1006417E4 /* CategoryImage.swift in Sources */,
 				0D7C2B672AC26E94006417E4 /* Todo.xcdatamodeld in Sources */,
