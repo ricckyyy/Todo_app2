@@ -20,7 +20,7 @@ struct CheckBox: View{
 
 struct Checkbox_Previews: PreviewProvider{
     static var previews: some View{
-        VStack {
+        Group{
             CheckBox(checked: .constant(false))
             CheckBox(checked: .constant(true))
         }
