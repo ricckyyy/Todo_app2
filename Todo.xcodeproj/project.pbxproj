@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D11A19F2B6E28C700F1528F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11A19E2B6E28C700F1528F /* CheckBox.swift */; };
+		0D3ECAB62B84C51D009F8A1C /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3ECAB52B84C51D009F8A1C /* Color+Extention.swift */; };
 		0D7C2B5B2AC26E92006417E4 /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B5A2AC26E92006417E4 /* TodoApp.swift */; };
 		0D7C2B5D2AC26E92006417E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B5C2AC26E92006417E4 /* ContentView.swift */; };
 		0D7C2B5F2AC26E94006417E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7C2B5E2AC26E94006417E4 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0D11A19E2B6E28C700F1528F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		0D3ECAB52B84C51D009F8A1C /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
 		0D3FA4372B73BFDF00E5A2EF /* TodoRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodoRelease.entitlements; sourceTree = "<group>"; };
 		0D7C2B572AC26E92006417E4 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7C2B5A2AC26E92006417E4 /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3ECAB42B84C4DB009F8A1C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0D3ECAB52B84C51D009F8A1C /* Color+Extention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		0D7C2B4E2AC26E91006417E4 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		0D7C2B592AC26E92006417E4 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				0D3ECAB42B84C4DB009F8A1C /* Extension */,
 				0D3FA4372B73BFDF00E5A2EF /* TodoRelease.entitlements */,
 				0D7C2B5A2AC26E92006417E4 /* TodoApp.swift */,
 				0D7C2B5C2AC26E92006417E4 /* ContentView.swift */,
@@ -273,6 +284,7 @@
 			files = (
 				0D7C2B642AC26E94006417E4 /* Persistence.swift in Sources */,
 				0D7C2B5D2AC26E92006417E4 /* ContentView.swift in Sources */,
+				0D3ECAB62B84C51D009F8A1C /* Color+Extention.swift in Sources */,
 				0D11A19F2B6E28C700F1528F /* CheckBox.swift in Sources */,
 				0D7C2B5B2AC26E92006417E4 /* TodoApp.swift in Sources */,
 				0D7C2B8A2AC401E1006417E4 /* CategoryImage.swift in Sources */,
