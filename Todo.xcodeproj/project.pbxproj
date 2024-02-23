@@ -19,6 +19,7 @@
 		0D7C2B7B2AC26E94006417E4 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B7A2AC26E94006417E4 /* TodoUITests.swift */; };
 		0D7C2B7D2AC26E94006417E4 /* TodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B7C2AC26E94006417E4 /* TodoUITestsLaunchTests.swift */; };
 		0D7C2B8A2AC401E1006417E4 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2B892AC401E1006417E4 /* CategoryImage.swift */; };
+		0DD5F38E2B88BDE30028D18D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5F38D2B88BDE30028D18D /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0D7C2B7A2AC26E94006417E4 /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		0D7C2B7C2AC26E94006417E4 /* TodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D7C2B892AC401E1006417E4 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
+		0DD5F38D2B88BDE30028D18D /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				0D7C2B5C2AC26E92006417E4 /* ContentView.swift */,
 				0D7C2B892AC401E1006417E4 /* CategoryImage.swift */,
 				0D11A19E2B6E28C700F1528F /* CheckBox.swift */,
+				0DD5F38D2B88BDE30028D18D /* UserView.swift */,
 				0D7C2B5E2AC26E94006417E4 /* Assets.xcassets */,
 				0D7C2B632AC26E94006417E4 /* Persistence.swift */,
 				0D7C2B652AC26E94006417E4 /* Todo.xcdatamodeld */,
@@ -285,6 +288,7 @@
 				0D7C2B642AC26E94006417E4 /* Persistence.swift in Sources */,
 				0D7C2B5D2AC26E92006417E4 /* ContentView.swift in Sources */,
 				0D3ECAB62B84C51D009F8A1C /* Color+Extention.swift in Sources */,
+				0DD5F38E2B88BDE30028D18D /* UserView.swift in Sources */,
 				0D11A19F2B6E28C700F1528F /* CheckBox.swift in Sources */,
 				0D7C2B5B2AC26E92006417E4 /* TodoApp.swift in Sources */,
 				0D7C2B8A2AC401E1006417E4 /* CategoryImage.swift in Sources */,
