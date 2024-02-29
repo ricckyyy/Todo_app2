@@ -17,12 +17,15 @@ struct UserView: View {
             Image("profile")
                 .resizable()
                 .frame(width: 60,height: 60)
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
         }
     }
 }
 
 struct UserView_Previews:PreviewProvider {
     static var previews: some View{
-        UserView()
+        Group{
+            UserView()
+        }
     }
 }
