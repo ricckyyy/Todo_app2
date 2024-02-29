@@ -21,6 +21,8 @@ struct UserView: View {
     }
 }
 
-#Preview {
-    UserView()
+struct UserView_Previews:PreviewProvider {
+    static var previews: some View{
+        UserView()
+    }
 }
