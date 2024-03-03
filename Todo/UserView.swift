@@ -11,11 +11,12 @@ struct UserView: View {
     var body: some View {
         HStack {
             VStack (alignment: .leading){
-                Text("田中　太郎")
+                Text("一言コメント")
                     .foregroundColor(Color.tTitle)
-                    
-                Text("あいうあいえ")
+                    .font(.footnote)
+                Text("名前　太郎")
                     .foregroundColor(Color.tTitle)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             }
             Spacer()
             Image("profile")
